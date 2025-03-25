@@ -31,17 +31,17 @@ int main() {
       scanf("%d", &ponto_t1);
 
       // Cadastro da segunda carta
-      
+
       printf("Coloque dados da segunda carta (ex A02): \n");
       printf("Digite o numero da populacao: ");
         scanf("%d", &populacao2);
-  
+
       printf("Coloque a area (em km): ");
         scanf("%f", &area2);
-  
+
       printf("Coloque o valor do pib: ");
         scanf("%f", &pib2);
-  
+
       printf("Coloque o valor dos pontos turisticos: ");
         scanf("%d", &ponto_t2);
 
@@ -51,7 +51,7 @@ int main() {
      printf("Area: %.2f km²\n", area1);
      printf("PIB: %.2f bilhoes\n", pib1);
      printf("Pontos turisticos: %d\n", ponto_t1);
-     
+
      // Exibição dos dados da segunda carta
     printf("\nDados da segunda carta (B02):\n");
     printf("Populacao: %d habitantes\n", populacao2);
