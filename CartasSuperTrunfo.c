@@ -28,7 +28,7 @@ int main() {
       scanf("%f", &pib1);
 
     printf("Coloque o valor dos pontos turisticos: ");
-      scanf("%d", ponto_t1);
+      scanf("%d", &ponto_t1);
 
       // Cadastro da segunda carta
       
@@ -43,7 +43,7 @@ int main() {
         scanf("%f", &pib2);
   
       printf("Coloque o valor dos pontos turisticos: ");
-        scanf("%d", ponto_t2);
+        scanf("%d", &ponto_t2);
 
         // Exibição dos dados da primeira carta
      printf("\nDados da primeira carta (A01):\n");
@@ -52,7 +52,7 @@ int main() {
      printf("PIB: %.2f bilhoes\n", pib1);
      printf("Pontos turisticos: %d\n", ponto_t1);
 
-     
+
     return 0;
 
 }
