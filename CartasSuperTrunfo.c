@@ -45,7 +45,14 @@ int main() {
       printf("Coloque o valor dos pontos turisticos: ");
         scanf("%d", ponto_t2);
 
-        
+        // Exibição dos dados da primeira carta
+     printf("\nDados da primeira carta (A01):\n");
+     printf("Populacao: %d habitantes\n", populacao1);
+     printf("Area: %.2f km²\n", area1);
+     printf("PIB: %.2f bilhoes\n", pib1);
+     printf("Pontos turisticos: %d\n", ponto_t1);
+
+     
     return 0;
 
 }
