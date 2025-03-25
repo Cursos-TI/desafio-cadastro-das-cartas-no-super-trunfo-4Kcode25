@@ -28,7 +28,7 @@ int main() {
       scanf("%f", &pib1);
 
     printf("Coloque o valor dos pontos turisticos: ");
-      scanf("%d", ponto_t1);
+      scanf("%d", &ponto_t1);
 
       // Cadastro da segunda carta
       
@@ -43,7 +43,22 @@ int main() {
         scanf("%f", &pib2);
   
       printf("Coloque o valor dos pontos turisticos: ");
-        scanf("%d", ponto_t2);
+        scanf("%d", &ponto_t2);
+
+        // Exibição dos dados da primeira carta
+     printf("\nDados da primeira carta (A01):\n");
+     printf("Populacao: %d habitantes\n", populacao1);
+     printf("Area: %.2f km²\n", area1);
+     printf("PIB: %.2f bilhoes\n", pib1);
+     printf("Pontos turisticos: %d\n", ponto_t1);
+     
+     // Exibição dos dados da segunda carta
+    printf("\nDados da segunda carta (B02):\n");
+    printf("Populacao: %d habitantes\n", populacao2);
+    printf("Area: %.2f km²\n", area2);
+    printf("PIB: %.2f bilhoes\n", pib2);
+    printf("Pontos turisticos: %d\n", ponto_t2);
+
     return 0;
 
 }
