@@ -44,6 +44,8 @@ int main() {
   
       printf("Coloque o valor dos pontos turisticos: ");
         scanf("%d", ponto_t2);
+
+        
     return 0;
 
 }
