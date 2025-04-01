@@ -8,13 +8,16 @@ int main() {
     float area1;
     float pib1;
     int ponto_t1;
-    float densidade1, pib_per_capital1;               // Acresentando veriavel pib e densidade
+    float densidade1, pib_per_capital1;      // Acresentando veriavel pib e densidade
+              
 //Declaração dos tributos da segunda carta
 
     int populacao2;
     float area2;
     float pib2;
     int ponto_t2;
+    float densidade2, pib_per_capital2;     // Acresentando veriavel pib e densidade 2
+              
 
     // Cadastro da primeira carta
     printf("Coloque dados da primeira carta (ex A01): \n");
