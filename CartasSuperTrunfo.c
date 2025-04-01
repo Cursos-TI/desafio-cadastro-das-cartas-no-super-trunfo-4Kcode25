@@ -8,7 +8,7 @@ int main() {
     float area1;
     float pib1;
     int ponto_t1;
-
+    float densidade1, pib_per_capital1;               // Acresentando veriavel pib e densidade
 //Declaração dos tributos da segunda carta
 
     int populacao2;
