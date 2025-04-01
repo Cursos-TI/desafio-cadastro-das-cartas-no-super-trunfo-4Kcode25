@@ -52,6 +52,9 @@ int main() {
         densidade1 = populacao1 / area1;
         pib_per_capital1 = pib1 / populacao1;
 
+        densidade2 = populacao2 / area2;
+        pib_per_capital2 = pib2 / populacao2;
+
         // Exibição dos dados da primeira carta
      printf("\nDados da primeira carta (A01):\n");
      printf("Populacao: %d habitantes\n", populacao1);
