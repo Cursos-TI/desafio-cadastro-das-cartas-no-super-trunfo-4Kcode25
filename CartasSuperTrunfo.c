@@ -16,7 +16,7 @@ int main() {
     float area2;
     float pib2;
     int ponto_t2;
-    float densidade2, pib_per_capital2;     // Acresentando veriavel pib e densidade 2
+    float densidade2, pib_per_capital2;     // Acresentando veriavel pib e densidade 2 
               
 
     // Cadastro da primeira carta
@@ -47,6 +47,10 @@ int main() {
   
       printf("Coloque o valor dos pontos turisticos: ");
         scanf("%d", &ponto_t2);
+
+        //calculo da densidade populacional e pib per capita
+        densidade1 = populacao1 / area1;
+        pib_per_capital1 = pib1 / populacao1;
 
         // Exibição dos dados da primeira carta
      printf("\nDados da primeira carta (A01):\n");
